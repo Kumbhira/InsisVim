@@ -1,6 +1,6 @@
 require("insis").setup({
   colorscheme = "gruvbox",
-  enable_imselect = true,
+  enable_imselect = false,
   python = {
     enable = true,
     -- can be pylsp or pyright
