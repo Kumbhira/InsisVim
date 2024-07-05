@@ -12,8 +12,8 @@ if lualine then
       },
       -- https://github.com/ryanoasis/powerline-extra-symbols
       section_separators = {
-        left = " ",
-        right = "",
+        left = "",
+        right = "",
       },
       globalstatus = true,
     },

@@ -263,6 +263,9 @@ return {
   -- kanagawa
   { "rebelot/kanagawa.nvim" },
 
+  --material
+  { "marko-cerovac/material.nvim" },
+
   --------------------- git ---------------------------------------------------
 
   {
