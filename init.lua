@@ -27,6 +27,9 @@ require("insis").setup({
     ---@type "dark" | "light"
     theme = "dark",
   },
+  nvimTree = {
+    keys = {
+      toggle = { "<A-f>", "<leader>m" }
+      }
+  },
 })
-
-
