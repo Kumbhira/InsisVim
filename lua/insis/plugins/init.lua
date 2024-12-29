@@ -197,8 +197,9 @@ return {
     config = function()
       require("insis.plugins.markdown-preview")
     end,
-    build = function()
-      vim.fn["mkdp#util#install"]()
+    build = "cd app && yarn install",
+    init = function()
+      vim.g.mkdp_filetypes = { "markdown" }
     end,
   },
 

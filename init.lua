@@ -17,15 +17,19 @@ require("insis").setup({
       prev_link = "gp",
       next_heading = "gj",
       prev_heading = "gk",
-      go_back = "<C-o>",
+      -- 进入链接
       follow_link = "gd",
+      -- 从链接返回
+      go_back = "<C-o>",
       toggle_item = "tt",
     },
     formatter = "prettier",
-    format_on_save = true,
+    format_on_save = false,
+    -- 文字长度到达边缘默认自动折行
     wrap = true,
+    ---:MarkdownPreview 命令打开文章预览默认是 dark 皮肤
     ---@type "dark" | "light"
-    theme = "dark",
+    theme = "light",
   },
   nvimTree = {
     keys = {
