@@ -133,12 +133,12 @@ end
 local header = {
   type = "text",
   val = {
-    [[    ____           _     _    ___         ]],
-    [[   /  _/___  _____(_)___| |  / (_)___ ___ ]],
-    [[   / // __ \/ ___/ / ___/ | / / / __ `__ \]],
-    [[ _/ // / / (__  ) (__  )| |/ / / / / / / /]],
-    [[/___/_/ /_/____/_/____/ |___/_/_/ /_/ /_/ ]],
-    [[                                          ]],
+    [[         _    ___         ]],
+    [[   ____ | |  / (_)___ ___ ]],
+    [[  / __ \| | / / / __ `__ \]],
+    [[ / / / /| |/ / / / / / / /]],
+    [[/_/ /_/ |___/_/_/ /_/ /_/ ]],
+    [[                          ]],
   },
   opts = {
     position = "center",
@@ -183,7 +183,7 @@ local buttons = {
     dashboard.button("m", "  Mason", "<cmd>Mason<CR>"),
     dashboard.button("t", "  Update Treesitter", "<cmd>TSUpdate<CR>"),
     dashboard.button("u", "  Restore plugins", "<cmd>Lazy restore<CR>"),
-    dashboard.button("q", "󰈆  Quit", "<cmd>qa<CR>"),
+    dashboard.button("q", "  Quit", "<cmd>qa<CR>"),
   },
   position = "left",
 }
@@ -210,7 +210,7 @@ local nvimInfoSection = {
 
 local versionSection = {
   type = "text",
-  val = require("insis").version .. " make with ♥ by nshen",
+  val = require("insis").version .. " make with ♥",
   opts = {
     position = "center",
     hl = "Type",

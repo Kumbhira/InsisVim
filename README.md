@@ -518,12 +518,6 @@ require("insis").setup({
 
 更新中。。。
 
-## 微信群
-
-有问题扫码加我，注明 `vim` ，拉你进群，微信号：nshen121
-
-<img src="./wechat.jpg" alt="image" width="300" height="auto">
-
 ## 项目结构
 
 如何扩展
